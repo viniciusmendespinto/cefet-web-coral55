@@ -7,43 +7,45 @@
 </head>
 <body>
   <!-- substitua os elementos não semânticos por elementos semânticos -->
-  <div id="recipiente">
-    <div id="cabecalho">
+  <div class="recipiente">
+
+    <header> <!-- cabecalho -->
       <h1>Lanchonete do Coral 55</h1>
-      <h2>O melhor açaí marítimo da região</h2>
-    </div>
-    <div id="conteudo">
-      <div id="lateral">
-        <img src="images/siri.png" alt="Um siri feliz após comer na lanchonete">
+      <h2>O melhor <span id="acai">açaí </span> marítimo da região</h2>
+    </header>
+
+    <main><!-- <div id="conteudo"> -->
+      <aside> <!-- <div id="lateral"> -->
+        <img src="images/siri.png" id="siri" alt="Um siri feliz após comer na lanchonete">
         <h2>Cardápio</h2>
-        <img src="images/bolhas.png" alt="Bolhas de ar">
-        <img src="images/peixe.png" alt="Peixe feliz após beber um delicioso
+        <img src="images/bolhas.png" id="bolhas" alt="Bolhas de ar">
+        <img src="images/peixe.png" id="peixe" alt="Peixe feliz após beber um delicioso
           coquetel de algas">
-      </div>
+      </aside>
       <div id="cardapio">
         <h3>Salgados</h3>
         <!--
           encontre uma forma para dispor os itens do cardápio com seus
           nomes à esquerda e os preços à direita
         -->
-        Pão de queijo de égua marinha $ 0,99
+        Pão de queijo de égua marinha $ 0,99<h5 class="espacamento-duplo"></h5>
         Hamburguer de microinsetos com salada de algas ou de musgo $ 2,49
         <h3>Pratos</h3>
-        Açaí do manguezal 500ml $ 4,99
-        Açaí marítimo (assinatura) 500ml $ 6,99
-        Algas verdes fritas $ 7,49
-        Plâncton ao molho de maracujá $ 12,49
+        Açaí do manguezal 500ml $ 4,99<h5 class="espacamento-duplo"></h5>
+        Açaí marítimo (assinatura) 500ml $ 6,99<h5 class="espacamento-duplo"></h5>
+        Algas verdes fritas $ 7,49<h5 class="espacamento-duplo"></h5>
+        Plâncton ao molho de maracujá $ 12,49<h5 class="espacamento-duplo"></h5>
         Plâncton do pacífico (importado) marinado $ 19,99
         <h3>Bebes</h3>
-        Água temperada (cortesia)
-        Água doce importada (copo) $ 29,49
-        Coquetel de algas (alcoólico) $ 8,99
+        Água temperada (cortesia)<h5 class="espacamento-duplo"></h5>
+        Água doce importada (copo) $ 29,49<h5 class="espacamento-duplo"></h5>
+        Coquetel de algas (alcoólico) $ 8,99<h5 class="espacamento-duplo"></h5>
         Coquetel de algas (kids) $ 5,49
       </div>
-    </div>
-    <div id="rodape">
-      <img src="images/cartoes.png" alt="Formas de pagamento: Visa e Masterard">
-    </div>
+    </main>
+    <footer>
+      <img src="images/cartoes.png" id="cartoes" alt="Formas de pagamento: Visa e Masterard">
+    </footer>
   </div>
   <div id="ticket">
     <img src="images/ticket.png" alt="Cupom de desconto">

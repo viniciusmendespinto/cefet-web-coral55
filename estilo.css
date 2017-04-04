@@ -1,2 +1,118 @@
 /* Importa o arquivo CSS que importa a fonte Ravie */
 @import "fonts/ravie.css";
+
+body{
+
+	background-image: linear-gradient(to bottom, #f8f1b2, #4599b2);
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+
+.recipiente{
+    width: 800px;
+    height: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    border: 1px solid red;
+
+}
+
+header{
+	position: absolute; right: 0px; top: 0px;
+	width: 646px;
+	border: 1px solid orange;
+}
+
+header h1{
+
+    font-family: 'Ravie';
+    font-size: 36px;
+    color: #e90c0c;
+    font-weight: normal;
+    margin-left: 30px;
+    
+}
+
+header h2{
+    font-family: trebuchet;
+    font-size: 24px;
+    color: #333;
+    font-weight: normal;
+    margin-left: 250px;
+
+}
+
+h2 span#acai{
+    color: #d027aa;
+    font-family: trebuchet;
+}
+
+aside{
+    
+    position: absolute; height: 100%; left: 0; top: 0;
+    width: 154px;
+	text-align: center;
+	font-weight: normal;
+	border: 1px solid blue;
+
+}
+
+aside h2{
+	position: absolute; right: -40px; top: 250px;
+    transform: rotate(270deg);
+    font-family: verdana;
+    font-size: 48px;
+    color: #333;
+    font-weight: bold;
+}
+
+img#siri{
+    position: absolute; left: -10px; top: 7px;
+}
+
+img#bolhas{
+	position: absolute; left: 30px; top: 450px;
+}
+
+img#peixe{
+    position: absolute; left: -44px; bottom: 0px;
+
+}
+img#cartoes{
+	position: absolute; right: 15px; bottom: 25px;
+}
+
+#cardapio{
+    position: absolute; right: 0; top: 135px;
+	background-image: linear-gradient(to bottom, #f8f1b2, #4599b2, 20%);
+	border: 1px solid #aac0ae;
+	width: 646px;
+	text-align: left;
+	font-weight: normal;
+	font-family: verdana;
+    font-size: 14px;
+    color: #333;
+    padding-left: 15px;
+    padding-bottom: 50px;
+}
+
+#cardapio h3{
+
+	font-family: verdana;
+    font-size: 18px;
+    color: #333;
+    font-weight: bold;
+}
+
+footer{
+	position: absolute; width: 100%; right: 0; bottom: 0;
+	border: 1px solid green;
+	
+}
+
+.espacamento-duplo { 
+	line-height: 2em; 
+}
+
