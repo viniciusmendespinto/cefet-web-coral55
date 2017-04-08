@@ -130,11 +130,16 @@ footer{
     float: right;
 }
 
-#ticketlateral{
-	position: fixed; left: -69px; top: 295px;
+#ticket{
+	position: fixed; 
+	left: -69px; 
+	transition: left 200ms ease-out;
+	margin: 0;
+	top: 295px;
+
 }
 
-img#ticket:hover{
-    position: fixed; left: 0px; top: 295px;
+#ticket:hover{
+    left: 0;
 
 }
